@@ -1,0 +1,35 @@
+h3{
+    color: aqua;
+}
+
+#text{
+    color: gold;
+}
+
+.text{
+    color:blue;
+}
+
+.red{
+    color: red;
+}
+
+b.text{
+    color:darkmagenta;
+    /* background-color: red; */
+    /* background-color: #197654; */
+    background-color: rgba(100, 100, 100, 0.1);
+
+
+}
+
+/* стилізація хедеру */
+
+/* BEM */
+/* Block Element Modifier */
+
+/* user-card */
+/* user-card_title */
+/* user-card_image */
+/* user--card__button- */
+
