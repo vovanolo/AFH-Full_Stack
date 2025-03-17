@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-section{
+    background-color: blue;
+
+    height: 200px;
+
+
+}
+
+
+.main-section-desc{
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    
+
+    /* padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; */
+    padding: 40px 50px 50px 40px;
+
+    /* border-color: brown; */
+
+    border: 20px solid brown;
+
+}
+
+.main-block{
+    background-color: black;
+
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+
+
+    /* justify-content: right;
+     */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
+    height: 500px;
+
+    align-items: center;
+
+
+
+}
+
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+
+    background-color: red;
+
+    width: 300px;
+    justify-content: space-around;
+}
+
+.list-item1{
+    background-color: blueviolet;
+}
+
+.list-item2{
+    background-color:chartreuse;
+}
+
+.list-item3{
+    background-color:cornflowerblue;
+}
+
+.relative-box{
+    width: 200px;
+
+    height: 200px;
+    background-color: brown;
+    position: relative;
+}
+
+.absolute-box{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.element-fixed{
+    height: 50px;
+    background-color: darkcyan;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
