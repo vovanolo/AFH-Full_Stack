@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lesson1</title>
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
 
@@ -54,7 +57,11 @@
     <button>Просто кнопка</button>
 
 
-    <div></div>
+   
+
+    <div data-hx-get="footer.html" data-hx-trigger="load" data-hx-swap="outerHTML"></div>
+
+    
 
     
 </body>

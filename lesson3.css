@@ -1,0 +1,25 @@
+:root{
+    --main-color: rgb(201, 46, 46);
+}
+
+
+.image{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .image{
+        margin-left: 0;
+    }
+}
+
+#title {
+    color: red;
+    cursor: pointer;
+}
+
+#title:hover {
+    color: var(--main-color);
+}
